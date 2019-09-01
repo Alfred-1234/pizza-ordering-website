@@ -260,6 +260,7 @@ jQuery.extend = jQuery.fn.extend = function() {
 	// Return the modified object
 	return target;
 };
+
 jQuery.extend( {
 
 	// Unique for each copy of jQuery on the page
@@ -1251,7 +1252,8 @@ setDocument = Sizzle.setDocument = function( node ) {
 			}
 			return results;
 		};
-    // Class
+
+	// Class
 	Expr.find["CLASS"] = support.getElementsByClassName && function( className, context ) {
 		if ( typeof context.getElementsByClassName !== "undefined" && documentIsHTML ) {
 			return context.getElementsByClassName( className );
