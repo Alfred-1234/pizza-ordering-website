@@ -27,7 +27,7 @@ header{
   min-height: 100px;
 }
 
-.jumbotron{
+.gigantic{
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1.2em;
@@ -40,7 +40,7 @@ header{
   background-color: white;
 }
 
-.jumbotron h2{
+.gigantic h2{
   margin-top: 80px;
 }
 
